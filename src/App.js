@@ -1,7 +1,9 @@
 import { useState, useEffect } from 'react';
 
 function App() {
-  const [content, setContent] = useState('hello world');
+  const [content, setContent] = useState(
+    'lorem ipsum dolor sit amet consectetur adipisicing elit. Qui, quisquam.'
+  );
   const [track, setTrack] = useState(0);
   const [tempState, setTempState] = useState([]);
   const [undoRedoStatus, setUndoRedoStatus] = useState({
